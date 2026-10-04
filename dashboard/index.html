@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A collection of standalone HTML, CSS, and JavaScript experiments.">
+    <title>FrontendLab</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="hero">
+        <p class="eyebrow">Creative code collection</p>
+        <h1>Frontend<span>Lab</span></h1>
+        <p class="intro">A growing collection of standalone HTML, CSS, and JavaScript modules.</p>
+      </header>
+
+      <section class="collection" aria-labelledby="collection-title">
+        <div class="collection-heading">
+          <div>
+            <p class="section-label">Explore</p>
+            <h2 id="collection-title">All modules</h2>
+          </div>
+          <p id="module-count" class="module-count" aria-live="polite"></p>
+        </div>
+
+        <div id="status" class="status" role="status">
+          <span class="spinner" aria-hidden="true"></span>
+          Loading modules…
+        </div>
+        <div id="module-grid" class="module-grid" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>

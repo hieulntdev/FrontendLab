@@ -1,0 +1,12 @@
+{
+  "name": "frontend-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A zero-dependency dashboard for standalone frontend experiments.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
